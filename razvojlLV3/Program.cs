@@ -10,10 +10,11 @@ namespace razvojlLV3
     {
         static void Main(string[] args)
         {   //prvi zadatak
-            //Dataset dataset = new Dataset();
-            //dataset.Clone();
-            //dataset.LoadDataFromCSV("csvfile.txt");
-            //Console.WriteLine(dataset.PrintList());
+            Dataset dataset = new Dataset();
+            dataset.Clone();
+            dataset.LoadDataFromCSV("csvfile.txt");
+            Console.WriteLine(dataset.PrintList());
+
 
             //drugi zadatak
             double[][] matrix = MatrixGenerator.GetInstance().GenerateMatrix(5, 5);
