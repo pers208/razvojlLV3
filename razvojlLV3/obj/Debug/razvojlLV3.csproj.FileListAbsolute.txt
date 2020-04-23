@@ -1,0 +1,7 @@
+C:\Users\Matej\source\repos\razvojlLV3\razvojlLV3\bin\Debug\razvojlLV3.exe.config
+C:\Users\Matej\source\repos\razvojlLV3\razvojlLV3\bin\Debug\razvojlLV3.exe
+C:\Users\Matej\source\repos\razvojlLV3\razvojlLV3\bin\Debug\razvojlLV3.pdb
+C:\Users\Matej\source\repos\razvojlLV3\razvojlLV3\obj\Debug\razvojlLV3.csprojAssemblyReference.cache
+C:\Users\Matej\source\repos\razvojlLV3\razvojlLV3\obj\Debug\razvojlLV3.csproj.CoreCompileInputs.cache
+C:\Users\Matej\source\repos\razvojlLV3\razvojlLV3\obj\Debug\razvojlLV3.exe
+C:\Users\Matej\source\repos\razvojlLV3\razvojlLV3\obj\Debug\razvojlLV3.pdb
