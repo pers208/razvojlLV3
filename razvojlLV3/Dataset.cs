@@ -49,15 +49,16 @@ namespace razvojlLV3
             return stringBuilder.ToString();
         }
         public IPrototype Clone()
-        {   //u zadatku nije potrebno duboko kopiranje jer je riječ o stringovima
+        {   //u zadatku nije potrebno duboko kopiranje
             Dataset clone=(Dataset)this.MemberwiseClone();
             clone.data = new List< List < string >> (this.data.Count);
             foreach(List<string> data in this.data)
             {
-                clone.data.Add((List<string>)Clone());
+                clone.data.Add(item);
             }
             return clone;
         }
         
-    }
+    }
+
 }
