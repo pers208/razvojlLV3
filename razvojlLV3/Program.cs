@@ -11,8 +11,10 @@ namespace razvojlLV3
         static void Main(string[] args)
         {   //prvi zadatak
             Dataset dataset = new Dataset();
-            dataset.Clone();
+            Dataset clone = new Dataset();
             dataset.LoadDataFromCSV("csvfile.txt");
+            clone = (Dataset)dataset.Clone();
+            Console.WriteLine(clone.PrintList());
             Console.WriteLine(dataset.PrintList());
 
 
